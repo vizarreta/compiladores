@@ -1,0 +1,8 @@
+funcion factorial(entero n) {
+    si (n <= 1) retorna 1;
+    retorna n * factorial(n - 1);
+}
+
+funcion main() {
+    imprimir("Factorial de 5:", factorial(5));
+}
