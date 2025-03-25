@@ -1,0 +1,7 @@
+funcion main() {
+    para (entero i = 1; i <= 3; i++) {
+        para (entero j = 1; j <= 3; j++) {
+            imprimir("i=", i, " j=", j);
+        }
+    }
+}
