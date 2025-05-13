@@ -1,0 +1,283 @@
+digraph {
+	1 [label=PROGRAMA fillcolor=white style=filled]
+	3 [label=FUNCTION fillcolor=white style=filled]
+	1 -> 3
+	14 [label=Q fillcolor=white style=filled]
+	3 -> 14
+	15 [label=type fillcolor=white style=filled]
+	14 -> 15
+	16 [label="TYPE_INT
+line: 1
+col: 0
+valor: inty" fillcolor=white style=filled]
+	15 -> 16
+	13 [label="FUNCION
+line: 1
+col: 5
+valor: funny" fillcolor=white style=filled]
+	3 -> 13
+	12 [label="ID
+line: 1
+col: 11
+valor: f1" fillcolor=white style=filled]
+	3 -> 12
+	11 [label="PARENTESIS_ABIERTO
+line: 1
+col: 14
+valor: (" fillcolor=white style=filled]
+	3 -> 11
+	10 [label=TI fillcolor=white style=filled]
+	3 -> 10
+	19 [label=Q fillcolor=white style=filled]
+	10 -> 19
+	20 [label=type fillcolor=white style=filled]
+	19 -> 20
+	21 [label="TYPE_INT
+line: 1
+col: 15
+valor: inty" fillcolor=white style=filled]
+	20 -> 21
+	18 [label="ID
+line: 1
+col: 20
+valor: p" fillcolor=white style=filled]
+	10 -> 18
+	17 [label=PF fillcolor=white style=filled]
+	10 -> 17
+	9 [label="PARENTESIS_CERRADO
+line: 1
+col: 21
+valor: )" fillcolor=white style=filled]
+	3 -> 9
+	8 [label="LLAVE_ABIERTO
+line: 2
+col: 23
+valor: {" fillcolor=white style=filled]
+	3 -> 8
+	7 [label=Sentencias fillcolor=white style=filled]
+	3 -> 7
+	6 [label=RTN fillcolor=white style=filled]
+	3 -> 6
+	24 [label="RETURN
+line: 3
+col: 27
+valor: cupcake" fillcolor=white style=filled]
+	6 -> 24
+	23 [label=E fillcolor=white style=filled]
+	6 -> 23
+	26 [label=T fillcolor=white style=filled]
+	23 -> 26
+	28 [label=FH fillcolor=white style=filled]
+	26 -> 28
+	30 [label="ID
+line: 3
+col: 35
+valor: p" fillcolor=white style=filled]
+	28 -> 30
+	29 [label=FN fillcolor=white style=filled]
+	28 -> 29
+	27 [label="T'" fillcolor=white style=filled]
+	26 -> 27
+	25 [label="E'" fillcolor=white style=filled]
+	23 -> 25
+	33 [label="SUMA
+line: 3
+col: 37
+valor: +" fillcolor=white style=filled]
+	25 -> 33
+	32 [label=T fillcolor=white style=filled]
+	25 -> 32
+	35 [label=FH fillcolor=white style=filled]
+	32 -> 35
+	36 [label="NUMERO
+line: 3
+col: 39
+valor: 10" fillcolor=white style=filled]
+	35 -> 36
+	34 [label="T'" fillcolor=white style=filled]
+	32 -> 34
+	31 [label="E'" fillcolor=white style=filled]
+	25 -> 31
+	22 [label="PUNTO_COMA
+line: 3
+col: 41
+valor: ;" fillcolor=white style=filled]
+	6 -> 22
+	5 [label="LLAVE_CERRADO
+line: 4
+col: 43
+valor: }" fillcolor=white style=filled]
+	3 -> 5
+	4 [label=PROGRAMA fillcolor=white style=filled]
+	3 -> 4
+	37 [label=FUNCTION fillcolor=white style=filled]
+	4 -> 37
+	48 [label=Q fillcolor=white style=filled]
+	37 -> 48
+	49 [label=type fillcolor=white style=filled]
+	48 -> 49
+	50 [label="TYPE_INT
+line: 6
+col: 46
+valor: inty" fillcolor=white style=filled]
+	49 -> 50
+	47 [label="FUNCION
+line: 6
+col: 51
+valor: funny" fillcolor=white style=filled]
+	37 -> 47
+	46 [label="ID
+line: 6
+col: 57
+valor: principal" fillcolor=white style=filled]
+	37 -> 46
+	45 [label="PARENTESIS_ABIERTO
+line: 6
+col: 67
+valor: (" fillcolor=white style=filled]
+	37 -> 45
+	44 [label=TI fillcolor=white style=filled]
+	37 -> 44
+	43 [label="PARENTESIS_CERRADO
+line: 6
+col: 68
+valor: )" fillcolor=white style=filled]
+	37 -> 43
+	42 [label="LLAVE_ABIERTO
+line: 7
+col: 70
+valor: {" fillcolor=white style=filled]
+	37 -> 42
+	41 [label=Sentencias fillcolor=white style=filled]
+	37 -> 41
+	52 [label=sentencia fillcolor=white style=filled]
+	41 -> 52
+	54 [label=Crear_variables fillcolor=white style=filled]
+	52 -> 54
+	57 [label=Q fillcolor=white style=filled]
+	54 -> 57
+	58 [label=type fillcolor=white style=filled]
+	57 -> 58
+	59 [label="TYPE_INT
+line: 8
+col: 74
+valor: inty" fillcolor=white style=filled]
+	58 -> 59
+	56 [label="ID
+line: 8
+col: 79
+valor: x" fillcolor=white style=filled]
+	54 -> 56
+	55 [label=Z fillcolor=white style=filled]
+	54 -> 55
+	53 [label="PUNTO_COMA
+line: 8
+col: 80
+valor: ;" fillcolor=white style=filled]
+	52 -> 53
+	51 [label=Sentencias fillcolor=white style=filled]
+	41 -> 51
+	61 [label=sentencia fillcolor=white style=filled]
+	51 -> 61
+	63 [label=Asig_varibles fillcolor=white style=filled]
+	61 -> 63
+	66 [label="ID
+line: 10
+col: 85
+valor: x" fillcolor=white style=filled]
+	63 -> 66
+	65 [label="IGUAL
+line: 10
+col: 87
+valor: =" fillcolor=white style=filled]
+	63 -> 65
+	64 [label=E fillcolor=white style=filled]
+	63 -> 64
+	68 [label=T fillcolor=white style=filled]
+	64 -> 68
+	70 [label=FH fillcolor=white style=filled]
+	68 -> 70
+	72 [label="ID
+line: 10
+col: 89
+valor: f1" fillcolor=white style=filled]
+	70 -> 72
+	71 [label=FN fillcolor=white style=filled]
+	70 -> 71
+	75 [label="PARENTESIS_ABIERTO
+line: 10
+col: 91
+valor: (" fillcolor=white style=filled]
+	71 -> 75
+	74 [label=FC fillcolor=white style=filled]
+	71 -> 74
+	77 [label="F'" fillcolor=white style=filled]
+	74 -> 77
+	78 [label="NUMERO
+line: 10
+col: 92
+valor: 5" fillcolor=white style=filled]
+	77 -> 78
+	76 [label=CN fillcolor=white style=filled]
+	74 -> 76
+	73 [label="PARENTESIS_CERRADO
+line: 10
+col: 93
+valor: )" fillcolor=white style=filled]
+	71 -> 73
+	69 [label="T'" fillcolor=white style=filled]
+	68 -> 69
+	67 [label="E'" fillcolor=white style=filled]
+	64 -> 67
+	62 [label="PUNTO_COMA
+line: 10
+col: 94
+valor: ;" fillcolor=white style=filled]
+	61 -> 62
+	60 [label=Sentencias fillcolor=white style=filled]
+	51 -> 60
+	80 [label=sentencia fillcolor=white style=filled]
+	60 -> 80
+	83 [label="PRINT
+line: 12
+col: 99
+valor: slay" fillcolor=white style=filled]
+	80 -> 83
+	82 [label=STRING_CONSOLE fillcolor=white style=filled]
+	80 -> 82
+	86 [label="PARENTESIS_ABIERTO
+line: 12
+col: 104
+valor: (" fillcolor=white style=filled]
+	82 -> 86
+	85 [label=TX fillcolor=white style=filled]
+	82 -> 85
+	88 [label="ID
+line: 12
+col: 105
+valor: x" fillcolor=white style=filled]
+	85 -> 88
+	87 [label=RX fillcolor=white style=filled]
+	85 -> 87
+	84 [label="PARENTESIS_CERRADO
+line: 12
+col: 106
+valor: )" fillcolor=white style=filled]
+	82 -> 84
+	81 [label="PUNTO_COMA
+line: 12
+col: 107
+valor: ;" fillcolor=white style=filled]
+	80 -> 81
+	79 [label=Sentencias fillcolor=white style=filled]
+	60 -> 79
+	40 [label=RTN fillcolor=white style=filled]
+	37 -> 40
+	39 [label="LLAVE_CERRADO
+line: 13
+col: 109
+valor: }" fillcolor=white style=filled]
+	37 -> 39
+	38 [label=PROGRAMA fillcolor=white style=filled]
+	37 -> 38
+}
